@@ -688,6 +688,7 @@ h3 {
 	font-size: var(--fs-xl);
 	color: rgb(90, 75, 65);
 	transition: color 0.2s, opacity 0.2s;
+	pointer-events: none;
 }
 
 .footer-tel a:hover {
@@ -949,6 +950,10 @@ h3 {
 		margin: 0 auto;
 	}
 
+	.map-tel {
+		pointer-events: none;
+	}
+
 	/*アクセス領域↑*/
 
 	/*footer領域↓*/
@@ -1183,11 +1188,17 @@ h3 {
 	.map-tel {
 		font-size: var(--fs-lg);
 		white-space: nowrap;
+		pointer-events: auto;
 	}
 
 	/*アクセス領域↑*/
 
 	/*footer領域↓*/
+
+	.footer-tel a {
+		pointer-events: auto;
+	}
+
 	/*footer領域↑*/
 
 	/*先頭へ戻るボタン↓*/
